@@ -1,0 +1,165 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+  background-image: url(https://picsum.photos/200);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+nav > a {
+  border: 1px solid;
+  padding-top: 5px;
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+nav {
+  display: flex;
+}
+
+.banner-img {
+  border: 1px solid;
+  height: auto;
+}
+
+.img-slideshow {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.img-slideshow:first-child {
+  display: block;
+}
+
+.our-profile-content {
+  border: 1px solid;
+  height: 400px;
+  align-content: center;
+  text-align: center;
+}
+
+.achivement-content {
+  border: 1px solid;
+  height: 400px;
+}
+
+.message-us-content {
+  border: 1px solid;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
+
+#home {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+#our-profile {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+#achivement {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+#message-us {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group > label {
+  width: 140px;
+  font-weight: bold;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+.form-button > button {
+  width: 97%;
+  padding: 10px;
+  background: #4c4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.form-button > button:hover {
+  background: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .main-header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 14px;
+  }
+
+  .menu {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+}
